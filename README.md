@@ -7,10 +7,9 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/coffeehaze/morph)](https://goreportcard.com/report/github.com/coffeehaze/morph)
 [![GoDoc](https://pkg.go.dev/badge/github.com/coffeehaze/morph?status.svg)](https://pkg.go.dev/github.com/coffeehaze/morph?tab=doc)
 [![Sourcegraph](https://sourcegraph.com/github.com/coffeehaze/morph/-/badge.svg)](https://sourcegraph.com/github.com/coffeehaze/morph?badge)
-[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/coffeehaze/morph)](https://www.tickgit.com/browse?repo=github.com/coffeehaze/morph)
 
-
-Morph is simple tools that helps you work with protoc stub and struct, where you can convert protoc stub to struct, or otherwise,
+Morph is simple tools that helps you work with protoc stub and struct, where you can convert protoc stub to struct, or
+otherwise,
 save your time by copying all attribute data, except (Objects, Slices, Array) to target struct or protoc.
 
 ## Contents
@@ -65,7 +64,6 @@ func sampleStructToProtoc() *pb.Todo {
 		Codes:         []model.Code{{1}, {4}, {9}},
 	}
 
-
 	for _, c := range todoStruct.Codes {
 		todoCodeProtocBlank := &pb.Code{}
 		morph.Struct(&c).Protoc(todoCodeProtocBlank)
@@ -114,7 +112,7 @@ func main() {
     // binds all struct attributes to protoc attributes
     morph.Struct(&todoStruct).Protoc(todoProtocBlank)
     ```
-  
+
 - `morph.Protoc(v interface{}) morph.StructTransformed`
     ```go
     // blank struct

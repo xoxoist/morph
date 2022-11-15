@@ -20,7 +20,8 @@ jobs:
       - run:
           name: run testing codes
           command: go test -race -coverprofile=coverage.out -covermode=atomic
-      - codecov/upload
+      - codecov/upload:
+          file: coverage.out
 
 workflows:
   build-updates:
