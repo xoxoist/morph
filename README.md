@@ -4,9 +4,10 @@
 
 [![coffeehaze](https://circleci.com/gh/coffeehaze/morph.svg?style=svg)](https://github.com/coffeehaze/morph)
 [![codecov](https://img.shields.io/codecov/c/github/coffeehaze/morph.svg)](https://codecov.io/gh/coffeehaze/morph)
-[![Go Report Card](https://goreportcard.com/badge/github.com/coffeehaze/morph)](https://goreportcard.com/report/github.com/coffeehaze/morph)
 [![GoDoc](https://pkg.go.dev/badge/github.com/coffeehaze/morph?status.svg)](https://pkg.go.dev/github.com/coffeehaze/morph?tab=doc)
 [![Sourcegraph](https://sourcegraph.com/github.com/coffeehaze/morph/-/badge.svg)](https://sourcegraph.com/github.com/coffeehaze/morph?badge)
+
+[//]: # ([![Go Report Card]&#40;https://goreportcard.com/badge/github.com/coffeehaze/morph&#41;]&#40;https://goreportcard.com/report/github.com/coffeehaze/morph&#41;)
 
 Morph is simple tools that helps you work with protoc stub and struct, where you can convert protoc stub to struct, or
 otherwise,
