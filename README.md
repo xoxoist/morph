@@ -102,6 +102,7 @@ func main() {
 
 - `morph.Struct(v interface{}) morph.ProtocTransformed`
     ```go
+    // blank protoc
     var todoProtocBlank = &pb.Todo{}
     todoStruct := model.Todo{
         ID:            "5b9e1416-1f06-4a61-a30a-0dcff164639b",
@@ -116,6 +117,7 @@ func main() {
   
 - `morph.Protoc(v interface{}) morph.StructTransformed`
     ```go
+    // blank struct
     var todo model.Todo
     todoProtoc := &pb.Todo{
         Id:            "5b9e1416-1f06-4a61-a30a-0dcff164639b",
