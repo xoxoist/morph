@@ -20,7 +20,8 @@ jobs:
             - "/go/pkg/mod"
       - run:
           name: run testing codes
-          command: go test -v
+          command: go test -race -coverprofile=coverage.out -covermode=atomic
+      - codecov/upload
 
 workflows:
   build-updates:
