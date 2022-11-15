@@ -1,7 +1,6 @@
 version: 2.1
 orbs:
   codecov: codecov/codecov@3.2.4
-
 jobs:
   go-test:
     docker:
@@ -27,7 +26,3 @@ workflows:
   build-updates:
     jobs:
       - go-test
-  upload-to-codecov:
-    jobs:
-      - checkout
-      - codecov/upload
