@@ -28,7 +28,7 @@ func (suite *TransformerTestSuite) TestAutoConf() {
 
 		pPerson := pb.Todo{}
 		apply(&pPerson, todoCopyExample)
-		suite.Assert().Equal(pPerson.Id, "231321")
+		suite.Assert().Equal(pPerson.Id, todoCopyExample["Id"][1])
 		suite.Assert().Equal(pPerson.Name, todoCopyExample["Name"][1])
 		suite.Assert().Equal(pPerson.Completed, todoCopyExample["Completed"][1])
 		suite.Assert().Equal(pPerson.NumberCode, todoCopyExample["NumberCode"][1])
