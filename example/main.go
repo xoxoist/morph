@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/coffeehaze/morph"
-	"github.com/coffeehaze/morph/example/model"
-	pb "github.com/coffeehaze/morph/example/protobuf"
+	"github.com/xoxoist/morph"
+	"github.com/xoxoist/morph/example/model"
+	pb "github.com/xoxoist/morph/example/protobuf"
 )
 
 func sampleStructToProtoc() *pb.Todo {

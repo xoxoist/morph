@@ -3,9 +3,9 @@ package morph
 import (
 	"testing"
 
-	"github.com/coffeehaze/morph/example/model"
-	pb "github.com/coffeehaze/morph/example/protobuf"
 	"github.com/stretchr/testify/suite"
+	"github.com/xoxoist/morph/example/model"
+	pb "github.com/xoxoist/morph/example/protobuf"
 )
 
 type TransformerTestSuite struct {
