@@ -1,13 +1,13 @@
 # Morph
 
-<img align="right" width="159px" src="https://raw.githubusercontent.com/coffeehaze/asset/main/morph.png">
+<img align="right" width="159px" src="https://raw.githubusercontent.com/xoxoist/asset/main/morph.png">
 
-[![coffeehaze](https://circleci.com/gh/coffeehaze/morph.svg?style=svg)](https://github.com/coffeehaze/morph)
-[![codecov](https://img.shields.io/codecov/c/github/coffeehaze/morph.svg)](https://codecov.io/gh/coffeehaze/morph)
-[![Sourcegraph](https://sourcegraph.com/github.com/coffeehaze/morph/-/badge.svg)](https://sourcegraph.com/github.com/coffeehaze/morph?badge)
-[![Go Report Card](https://goreportcard.com/badge/github.com/coffeehaze/morph)](https://goreportcard.com/report/github.com/coffeehaze/morph)
-[![GoDoc](https://pkg.go.dev/badge/github.com/coffeehaze/morph?status.svg)](https://pkg.go.dev/github.com/coffeehaze/morph?tab=doc)
-[![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/coffeehaze/morph/main/LICENSE)
+[![xoxoist](https://circleci.com/gh/xoxoist/morph.svg?style=svg)](https://github.com/xoxoist/morph)
+[![codecov](https://img.shields.io/codecov/c/github/xoxoist/morph.svg)](https://codecov.io/gh/xoxoist/morph)
+[![Sourcegraph](https://sourcegraph.com/github.com/xoxoist/morph/-/badge.svg)](https://sourcegraph.com/github.com/xoxoist/morph?badge)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xoxoist/morph)](https://goreportcard.com/report/github.com/xoxoist/morph)
+[![GoDoc](https://pkg.go.dev/badge/github.com/xoxoist/morph?status.svg)](https://pkg.go.dev/github.com/xoxoist/morph?tab=doc)
+[![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/xoxoist/morph/main/LICENSE)
 
 Morph is simple tools that helps you work with protoc stub and struct, where you can convert protoc stub to struct, or
 otherwise,
@@ -33,13 +33,13 @@ go version
 2. Get morph
 
 ```sh
-go get -u github.com/coffeehaze/morph
+go get -u github.com/xoxoist/morph
 ```
 
 3. Import morph
 
 ```go
-import "github.com/coffeehaze/morph"
+import "github.com/xoxoist/morph"
 ```
 
 ### Quick Start
@@ -49,9 +49,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/coffeehaze/morph"
-	"github.com/coffeehaze/morph/example/model"
-	pb "github.com/coffeehaze/morph/example/protobuf"
+	"github.com/xoxoist/morph"
+	"github.com/xoxoist/morph/example/model"
+	pb "github.com/xoxoist/morph/example/protobuf"
 )
 
 func sampleStructToProtoc() *pb.Todo {
